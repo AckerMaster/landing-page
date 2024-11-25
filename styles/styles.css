@@ -10,15 +10,75 @@ header {
     padding-right: 15vw;
     padding-bottom: 5vh;
     padding-top: 3vh;
+    height: 1000px;
+    gap: 12vh;
+    position:relative;
 }
 
 .header-menu,
-.header-content {
+.header-content,
+.header-links {
     display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .header-content-right {
-    background-color: blue;
-    width: 300px;
-    height: 200px;
+    background-color: rgb(137, 137, 143);
+    width: 1000px;
+    height: 500px;
+}
+
+.header-content-left {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    gap: 5vw;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 34px;
+}
+
+.header-content-left button {
+    width: 9vw;
+    padding: 0.5vw;
+    background-color: #3882F6;
+    border: #3882F6 solid;
+    border-radius: 0.5vw;
+    font-size: 28px;
+}
+
+.header-content-left a {
+    color: #F9FAF8;
+}
+
+.header-content-left h1{
+    color: #F9FAF8;
+    font-size: 84px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.header-content-left p {
+    color: #E5E7EB;
+    font-size: 32px;
 }
