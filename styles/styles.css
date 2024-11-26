@@ -17,7 +17,8 @@ header {
 
 .header-menu,
 .header-content,
-.header-links {
+.header-links,
+.cards-container {
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -54,7 +55,7 @@ a {
 }
 
 .header-link {
-    color: #E5E7EB;
+    color: #b7b8b9;
     font-size: 34px;
 }
 
@@ -82,3 +83,39 @@ a {
     color: #E5E7EB;
     font-size: 32px;
 }
+
+.main-content,
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.information {
+    color: #1F2937;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.cards-container {
+    margin-left: 400px;
+    margin-right: 400px;
+    gap: 84px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-image {
+    border: 6px  #3882F6 solid;
+    border-radius: 32px;
+    height: 300px;
+    width: 300px;
+}
+
+.card-text {
+    font-size: 32px;
+    color: #585858;
+    width: 300px;
+}
+
