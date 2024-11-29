@@ -122,3 +122,40 @@ a {
     width: 300px;
 }
 
+.second-content {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-content > * {
+    border: 6px  #3882F6 solid; 
+    min-width: 400px;
+}
+
+.quote {
+    font-size: 62px;
+    color: #1F2937;
+    font-weight: 100;
+    width: 60vw;
+    margin-bottom: 0;
+}
+
+.name-of-quoter {
+    font-size: 42px;
+    color: #1F2937;
+    font-weight: bold;
+    width: 60vw;
+    text-align: end;
+    
+
+}
+
+.name-of-quoter p {
+    margin-top: 0;
+}
