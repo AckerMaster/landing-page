@@ -66,6 +66,7 @@ a {
     border: #3882F6 solid;
     border-radius: 0.5vw;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .header-content-left a {
@@ -96,6 +97,8 @@ a {
     color: #1F2937;
     font-size: 62px;
     font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .cards-container {
