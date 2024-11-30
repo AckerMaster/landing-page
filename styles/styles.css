@@ -59,7 +59,8 @@ a {
     font-size: 34px;
 }
 
-.header-content-left button {
+.header-content-left button,
+.blue-container-right button {
     width: 9vw;
     padding: 0.5vw;
     background-color: #3882F6;
@@ -134,7 +135,6 @@ a {
 }
 
 .second-content > * {
-    border: 6px  #3882F6 solid; 
     min-width: 400px;
 }
 
@@ -158,4 +158,49 @@ a {
 
 .name-of-quoter p {
     margin-top: 0;
+}
+
+.third-content,
+.blue-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blue-container {
+    background-color: #3882F6;
+    border-radius: 32px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    display: flex;
+    padding: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 20vw;
+}
+
+.blue-container-left h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.blue-container-left p {
+    font-size: 32px;
+    color: #E5E7EB;
+    margin-top: 8px;
+
+}
+
+.blue-container-right button {
+    border: #F9FAF8 solid;
+    border-radius: 12px;
+    min-width: 120px;
+    font-size: 32px;
+}
+
+.blue-container-right a {
+    color: #F9FAF8;
 }
