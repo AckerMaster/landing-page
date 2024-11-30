@@ -204,3 +204,19 @@ a {
 .blue-container-right a {
     color: #F9FAF8;
 }
+
+.copyright {
+    background-color: #1F2937;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright p {
+    font-size: 32px;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
